@@ -4,7 +4,7 @@ principal = 1000
 rate = 0.05 #5%
 time = 3
 
-interest = 1000 * 0.05 * 3
+interest = principal * rate * time
 total_amount = principal + interest
 
 print("Interest: ", interest)
